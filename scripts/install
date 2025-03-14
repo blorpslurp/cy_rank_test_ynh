@@ -45,7 +45,7 @@ usermod -a -G ssl-cert $app
 ynh_script_progression "Installing the app..."
 
 pushd "$install_dir"
-	rm package-lock.json
+#	rm package-lock.json
  	ynh_hide_warnings ynh_exec_as_app npm install
 popd
 
