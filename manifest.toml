@@ -16,7 +16,7 @@ license = "MIT"
 website = "https://cytu.be"
 demo = "https://cytu.be/"
 admindoc = "https://github.com/calzoneman/sync/wiki/CyTube-3.0-Installation-Guide"
-code = "https://github.com/blorpslurp/cy_mod_test"
+code = "https://github.com/blorpslurp/cy_rank_test"
 
 
 [integration]
@@ -49,8 +49,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/calzoneman/sync/archive/9738c3f8c8bb3d9798ee5b5a98a77a21a229112a.tar.gz"
-    sha256 = "7f65e684ddc5615dc047ac71fbbb4df760da92bf6992d41cfe117cfcc8d1d4d8"
+    #url = "https://github.com/blorpslurp/cy_rank_test/archive/refs/heads/3.0.zip"
+    #sha256 = "7f65e684ddc5615dc047ac71fbbb4df760da92bf6992d41cfe117cfcc8d1d4d8"
 
     # autoupdate.strategy = "latest_github_tag"
 
