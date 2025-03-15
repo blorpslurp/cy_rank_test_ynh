@@ -49,8 +49,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/blorpslurp/cy_rank_test/archive/refs/heads/3.0.zip"
-    #sha256 = "5cdaa2da00f5feb3bdfee198296b30b06f966653"
+    url = "https://github.com/blorpslurp/cy_mod_test/archive/refs/tags/alpha.tar.gz"
+    #sha256 = "6f79f00866cc3b5833320b9ef9327f7adb155b75af261b3cfda2f05d770c4335"
 
     # autoupdate.strategy = "latest_github_tag"
 
