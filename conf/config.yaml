@@ -123,9 +123,9 @@ io:
 #    $ curl "https://www.googleapis.com/youtube/v3/search?key=$YOUTUBE_API_KEY&part=id&maxResults=1&q=test+video&type=video"
 youtube-v3-key: ''
 # Limit for the number of channels a user can register
-max-channels-per-user: 5
+max-channels-per-user: 0
 # Limit for the number of accounts an IP address can register
-max-accounts-per-ip: 5
+max-accounts-per-ip: 3
 # Minimum number of seconds between guest logins from the same IP
 guest-login-delay: 60
 # Maximum character length of a chat message, capped at 1000 characters
@@ -133,7 +133,7 @@ max-chat-message-length: 320
 
 # Allows you to customize the path divider. The /r/ in http://localhost/r/yourchannel
 # Acceptable characters are a-z A-Z 0-9 _ and -
-channel-path: 'r'
+channel-path: 'o'
 # Allows you to blacklist certain channels.  Users will be automatically kicked
 # upon trying to join one.
 channel-blacklist: []
