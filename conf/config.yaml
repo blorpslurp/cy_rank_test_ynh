@@ -106,7 +106,7 @@ io:
   # links with the appropriate port
   default-port: 1337
   # limit the number of concurrent socket connections per IP address
-  ip-connection-limit: 10
+  ip-connection-limit: 2
   cors:
     # Additional origins to allow socket connections from (io.domain and
     # https.domain are included implicitly).
